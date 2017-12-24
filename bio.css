@@ -20,11 +20,12 @@ main h1 {
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 p {
     text-align: justify;
+    margin: 20px 0;
 }
 
 blockquote {
@@ -32,13 +33,18 @@ blockquote {
     padding: 16px;
     border: 10px solid #C2CCCA;
     width: 250px;
-    margin: 0px;
+    margin: 20px 40px;
     box-sizing: border-box;
 }
 
 aside {
     background-color: #3C1D3D;
     color: #F2FFFC;
+}
+
+aside h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
 }
 
 footer {
@@ -70,4 +76,13 @@ aside a {
 main div {
     width: 720px;
     margin: auto;
+    padding: 30px 0;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
 }
