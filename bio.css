@@ -17,6 +17,7 @@ main h1 {
     padding: 20px;
     margin: 0px;
     border-bottom: 10px solid black;
+    text-transform: uppercase;
 }
 
 h2 {
