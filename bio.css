@@ -57,6 +57,10 @@ nav a {
     color: #F2FFFC;
 }
 
+aside li {
+    display: inline;
+}
+
 ul {
     color: pink;
 }
