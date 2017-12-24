@@ -37,20 +37,16 @@ blockquote {
     box-sizing: border-box;
 }
 
-aside {
+.navegacao-site {
     background-color: #3C1D3D;
     color: #F2FFFC;
+    padding: 20px;
     text-align: center;
 }
 
 aside h1 {
     font-size: 30px;
     margin-bottom: 25px;
-}
-
-footer {
-    background-color: #000;
-    color: #F2FFFC;
 }
 
 nav a {
@@ -90,4 +86,25 @@ strong {
 
 em {
     font-style: italic;
+}
+
+#rodape-pagina {
+    background-color: #000;
+    color: #F2FFFC;
+    padding: 20px;
+}
+
+article {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.leia-mais {
+    padding: 8px;
+    margin: 16px;
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    background-color: #E6E7E8;
 }
