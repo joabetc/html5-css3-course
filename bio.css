@@ -22,7 +22,7 @@ main h1 {
 
 h2 {
     font-size: 30px;
-    clear: right;
+    clear: both;
 }
 
 p {
@@ -37,7 +37,6 @@ blockquote {
     width: 250px;
     margin: 20px 40px;
     box-sizing: border-box;
-    float: right;
 }
 
 .navegacao-site {
@@ -130,4 +129,12 @@ article {
 
 .linkedin {
     background-image: url("linkedin.png");
+}
+
+.fiat {
+    float: right;
+}
+
+.petrobras {
+    float: left;
 }
