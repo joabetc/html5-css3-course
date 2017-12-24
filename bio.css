@@ -14,7 +14,6 @@ main h1 {
     color: #FFF;
     padding: 20px;
     margin: 0px;
-    box-sizing: border-box;
 }
 
 p {
@@ -27,6 +26,7 @@ blockquote {
     border: 10px solid #C2CCCA;
     width: 250px;
     margin: 0px;
+    box-sizing: border-box;
 }
 
 aside {
@@ -58,4 +58,9 @@ main a {
 aside a {
     color: inherit;
     font-family: "Open Sans Condensed", sans-serif;
+}
+
+main div {
+    width: 720px;
+    margin: auto;
 }
