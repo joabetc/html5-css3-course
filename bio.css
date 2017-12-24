@@ -10,12 +10,17 @@ h1, h2 {
 }
 
 main h1 {
+    font-size: 60px;
     text-align: center;
     background-color: #851944;
     color: #FFF;
     padding: 20px;
     margin: 0px;
     border-bottom: 10px solid black;
+}
+
+h2 {
+    font-size: 40px;
 }
 
 p {
