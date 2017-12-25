@@ -9,6 +9,12 @@ h1, h2 {
     font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
 
+.container {
+    margin: 0 auto;
+    width: 840px;
+    padding: 40px 0;
+}
+
 main h1 {
     font-size: 60px;
     text-align: center;
@@ -163,6 +169,9 @@ main {
 
 footer {
     clear: both;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 cite {
