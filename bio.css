@@ -157,3 +157,9 @@ main {
 footer {
     clear: both;
 }
+
+cite {
+    font-style: italic;
+    float: right;
+    display: block;
+}
