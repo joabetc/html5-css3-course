@@ -133,15 +133,20 @@ article {
 
 .fiat {
     float: right;
+    margin-right: 40px;
 }
 
 .petrobras {
     float: left;
+    margin-right: 40px;
 }
 
-aside, img {
+aside, .minha-foto {
     float: right;
+    box-sizing: border-box;
     width: 15%;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
 }
 
 aside {
