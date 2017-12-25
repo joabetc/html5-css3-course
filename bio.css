@@ -144,7 +144,6 @@ article {
 aside, .minha-foto {
     float: right;
     box-sizing: border-box;
-    width: 15%;
     border-left: 10px solid black;
     border-bottom: 10px solid black;
 }
@@ -152,6 +151,9 @@ aside, .minha-foto {
 aside {
     clear: right;
     box-sizing: border-box;
+    width: 15%;
+    position: relative;
+    top: 310px;
 }
 
 main {
@@ -167,4 +169,10 @@ cite {
     font-style: italic;
     float: right;
     display: block;
+}
+
+.minha-foto {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
