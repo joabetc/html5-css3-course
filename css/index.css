@@ -1,3 +1,11 @@
+.inicio-post {
+    background-color: #FFF;
+    position: absolute;
+    top: 3em;
+    right: 3em;
+    height: 6em;
+    padding: 1em;
+}
 .foto-home {
     height: 200px;
 }
@@ -38,7 +46,10 @@
     padding: 2em;
 }
 .secao-inicio h2 {
+    font-size: 3em;
+    text-shadow: 2px 2px #000;
     text-transform: uppercase;
+    margin-bottom: .5em;
 }
 .trabalhos {
     background-color: #3C1D3D;
@@ -62,8 +73,12 @@
 }
 .blog {
     background-color: #999;
-    color: #FFF;
+    /*color: #FFF;*/
     border-bottom: 10px solid #851944;
+    position: relative;
+}
+.blog h2 {
+    color: #FFF;
 }
 .blog small {
     position: relative;
