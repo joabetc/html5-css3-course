@@ -11,6 +11,7 @@
 .foto-home {
     height: 200px;
     border-radius: 50%;
+    box-shadow: 0 0 1em #000;
 }
 .saudacao p {
     font-size: 1.5em;
@@ -46,6 +47,7 @@
     margin: 2em auto;
     display: block;
     text-align: center;
+    box-shadow: 0 0 1em #000, inset 0 0 .5em #FFF
 }
 .secao-inicio {
     padding: 2em;
@@ -153,12 +155,14 @@ main {
 .javascript {
     top: 10%;
     left: 60%;
+    opacity: .3;
     -webkit-transform: translate(-50%, -50%) rotate(-5deg) translatez(1px) scale(0.25);
     transform: translate(-50%, -50%) rotate(-5deg) translatez(1px) scale(0.25);
 }
 .acessibilidade {
     top: 30%;
     left: 25%;
+    opacity: .8;
     -webkit-transform: translate(-50%, -50%) rotate(-5deg) translatez(3px) scale(0.25);
     transform: translate(-50%, -50%) rotate(-5deg) translatez(3px) scale(0.25);
 }
