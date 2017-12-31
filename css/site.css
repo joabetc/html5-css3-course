@@ -43,7 +43,16 @@ p {
 	position: fixed;
 	bottom: 0;
 	left: 0;
-	width: 100%;
+	background-image: radial-gradient(ellipse at left bottom,
+    	rgba(60, 29, 61, 0.8),
+    	rgba(60, 29, 61, 0.8) 65%,
+    	black 65%,
+    	black 70%,
+    	transparent 70%,
+    	transparent);
+	width:100%;
+	background-size: 25% 100%;
+	background-repeat: no-repeat;
 }
 
 main a {
