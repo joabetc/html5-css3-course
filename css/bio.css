@@ -7,11 +7,11 @@
 	padding: 1em;
 }
 
-.fiat {
+.citacao-bio:nth-of-type(odd) {
 	float: right;
 }
 
-.petrobras {
+.citacao-bio:nth-of-type(even) {
 	float: left;
 }
 
