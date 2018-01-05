@@ -43,3 +43,15 @@ cite {
 	margin-right: .2ch;
 	line-height: 1;
 }
+
+.citacao-bio::before {
+	content: '"';
+	position: absolute;
+	font-size: 10em;
+	color: #bbb;
+	line-height: .8;
+}
+
+.citacao-bio > p {
+	position: relative;
+}
