@@ -189,3 +189,7 @@ label[for="msg"] {
 	font-weight: bold;
 	margin-top: 1em;
 }
+
+label[for] {
+	display: block;
+}
