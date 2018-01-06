@@ -86,3 +86,11 @@ input[value="outro"]:checked ~ input {
     left: 2em;
     width: calc(100% - 2em);
 }
+
+.com-icone[for="nome"]::after {
+    background-image: url(../img/usuario.png);
+}
+
+.com-icone[for="email"]::after {
+    background-image: url(../img/email.png);
+}
