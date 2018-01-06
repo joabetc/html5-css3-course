@@ -84,4 +84,5 @@ input[value="outro"]:checked ~ input {
 .com-icone + input {
     position: relative;
     left: 2em;
+    width: calc(100% - 2em);
 }
