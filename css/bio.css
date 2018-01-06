@@ -69,3 +69,8 @@ cite {
 .habilidades td {
 	background-color: #EEE;
 }
+
+.habilidades th,
+.habilidades td {
+	padding: 1em;
+}
