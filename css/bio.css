@@ -41,18 +41,30 @@ h1 {
 	animation-timing-function: ease-in;
 }
 
-@keyframes quica {
+@-webkit-keyframes quica {
 	from {
 		top: 0;
+	}
+	90% {
+		transform: rotate(-2deg);
+	}
+	95% {
+		transform: rotate(2deg);
 	}
 	to {
 		top: 1em;
 	}
 }
 
-@-webkit-keyframes quica {
+@keyframes quica {
 	from {
 		top: 0;
+	}
+	90% {
+		transform: rotate(-2deg);
+	}
+	95% {
+		transform: rotate(2deg);
 	}
 	to {
 		top: 1em;
