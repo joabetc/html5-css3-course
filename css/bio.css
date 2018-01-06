@@ -32,6 +32,31 @@ h1 {
 	padding: 1em;
 	transition: transform 1s, box-shadow 1s ease-in;
 	transition-delay: 0s, 1s;
+	position: relative;
+	-webkit-animation: quica 1s infinite;
+	animation: quica 1s infinite;
+	-webkit-animation-direction: alternate;
+	animation-direction: alternate;
+	-webkit-animation-timing-function: ease-in;
+	animation-timing-function: ease-in;
+}
+
+@keyframes quica {
+	from {
+		top: 0;
+	}
+	to {
+		top: 1em;
+	}
+}
+
+@-webkit-keyframes quica {
+	from {
+		top: 0;
+	}
+	to {
+		top: 1em;
+	}
 }
 
 .citacao-bio:nth-of-type(odd) {
