@@ -65,3 +65,7 @@ cite {
 .habilidades thead th {
 	background-color: #3C1D3D;
 }
+
+.habilidades td {
+	background-color: #EEE;
+}
