@@ -183,3 +183,9 @@ footer a:focus {
 	left: 0;
 	transform: translateY(.5em) rotate(45deg);
 }
+
+legend,
+label[for="msg"] {
+	font-weight: bold;
+	margin-top: 1em;
+}
