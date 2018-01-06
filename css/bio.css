@@ -55,3 +55,9 @@ cite {
 .citacao-bio > p {
 	position: relative;
 }
+
+.habilidades th {
+	font-weight: bold;
+	background-color: #851944;
+	color: white;
+}
