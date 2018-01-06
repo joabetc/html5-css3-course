@@ -74,3 +74,9 @@ cite {
 .habilidades td {
 	padding: 1em;
 }
+
+,.habilidades {
+	border-collapse: separate;
+	border-spacing: .25em;
+	margin: 1em 0;
+}
