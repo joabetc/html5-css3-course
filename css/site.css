@@ -193,3 +193,14 @@ label[for="msg"] {
 label[for] {
 	display: block;
 }
+
+input[type="text"],
+input[type="email"],
+textarea {
+	font-family: inherit;
+	font-size: 100%;
+	padding: .25em .5em;
+	width: 100%;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+}
