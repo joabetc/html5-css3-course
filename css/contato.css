@@ -72,5 +72,11 @@ input[value="outro"]:checked ~ input {
     background-size: 50% 50%;
     background-position: center;
     background-repeat: no-repeat;
+    position: absolute;
+    top: 100%;
+    left: 0;
 }
 
+.com-icone {
+    position: relative;
+}
