@@ -241,3 +241,7 @@ button:hover,
 button:focus {
 	background-color: #8C1D3D;
 }
+
+input[value="outro"] ~ input {
+	display: none;
+}
