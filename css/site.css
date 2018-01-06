@@ -216,3 +216,8 @@ input[value="outro"] {
 input[name="assunto"] {
 	width: auto;
 }
+
+input:focus,
+textarea:focus {
+	background-color: #FFD;
+}
