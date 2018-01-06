@@ -80,3 +80,8 @@ input[value="outro"]:checked ~ input {
 .com-icone {
     position: relative;
 }
+
+.com-icone + input {
+    position: relative;
+    left: 2em;
+}
