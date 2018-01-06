@@ -5,6 +5,7 @@
 	box-sizing: border-box;
 	margin: 1em 2em;
 	padding: 1em;
+	transition: transform 1s, box-shadow 5s;
 }
 
 .citacao-bio:nth-of-type(odd) {
