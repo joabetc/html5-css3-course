@@ -236,3 +236,8 @@ button {
 	margin-left: auto;
 	margin-top: 1em;
 }
+
+button:hover,
+button:focus {
+	background-color: #8C1D3D;
+}
