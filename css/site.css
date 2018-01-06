@@ -221,3 +221,7 @@ input:focus,
 textarea:focus {
 	background-color: #FFD;
 }
+
+input:invalid {
+	box-shadow: 0 0 3px red;
+}
