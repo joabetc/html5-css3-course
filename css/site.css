@@ -209,11 +209,11 @@ fieldset > fieldset {
 	display: inline;
 }
 
-input[value="outro"] {
+label[for="outro"] {
 	display: inline;
 }
 
-input[name="assunto"] {
+input[name="outro-assunto"] {
 	width: auto;
 }
 
