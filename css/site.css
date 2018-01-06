@@ -120,9 +120,9 @@ nav a {
 }
 
 main {
+	width: calc(100% - 0.9 * 300px);
 	float: left;
-	width: 85%;
-	padding-bottom: 80px;
+	padding-bottom: 4em;
 }
 
 .minha-foto, .navegacao-site {
@@ -136,12 +136,14 @@ main {
 	position: absolute;
 	top: 0;
 	right: 0;
+	height: 300px;
 }
 
 .navegacao-site {
-	width: 15%;
+	width: calc(0.9 * 300px);
+	float: right;
 	position: relative;
-	top: 310px;
+	top: 300px;
 }
 
 main a:hover,
