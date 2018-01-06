@@ -75,6 +75,8 @@ cite {
 .citacao-bio:hover,
 .citacao-bio:focus {
 	box-shadow: 0 0 0 99999px rgba(0, 0, 0, .8);
+	-webkit-animation-play-state: paused;
+	animation-play-state: paused;
 }
 
 .citacao-bio:nth-of-type(odd):hover,
