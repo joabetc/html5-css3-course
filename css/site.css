@@ -204,3 +204,15 @@ textarea {
 	box-sizing: border-box;
 	border: 1px solid #ccc;
 }
+
+fieldset > fieldset {
+	display: inline;
+}
+
+input[value="outro"] {
+	display: inline;
+}
+
+input[name="assunto"] {
+	width: auto;
+}
