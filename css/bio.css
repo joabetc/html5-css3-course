@@ -1,3 +1,28 @@
+h1 {
+	-webkit-animation: aparece 2s;
+	animation: aparece 2s;
+}
+
+@keyframes aparece {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes aparece {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
 .citacao-bio {
 	background-color: #D9E5E3;
 	border: .5em solid #C2CCCA;
