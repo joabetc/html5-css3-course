@@ -3,26 +3,6 @@ h1 {
 	animation: aparece 2s ease-in;
 }
 
-@keyframes aparece {
-	0% {
-		opacity: 0;
-	}
-
-	100% {
-		opacity: 1;
-	}
-}
-
-@-webkit-keyframes aparece {
-	0% {
-		opacity: 0;
-	}
-
-	100% {
-		opacity: 1;
-	}
-}
-
 .citacao-bio {
 	background-color: #D9E5E3;
 	border: .5em solid #C2CCCA;

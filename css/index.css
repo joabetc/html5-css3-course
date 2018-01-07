@@ -260,6 +260,9 @@ header {
     right: 0;
     transform-origin: 0 0;
     transform: translate(calc(.707 * (3.5em - 100%) + 100%), calc(-.707 * 3.5em)) rotate(45deg);
+
+    animation: aparece 0.5s;
+    animation-delay: 2s;
 }
 .palavras-home {
     perspective: 6px;
