@@ -21,4 +21,5 @@
 
 .portfolio li:first-child {
 	width: 100%;
+	flex-basis: 100%;
 }
