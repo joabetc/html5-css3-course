@@ -297,6 +297,7 @@ html, body {
 body {
     perspective: 6px;
     perspective-origin: 50% 160px;
+    display: block;
 }
 .palavras-home, .titulo-principal {
     transform-style: preserve-3d;
