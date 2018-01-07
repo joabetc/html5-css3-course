@@ -1,3 +1,8 @@
+.portfolio {
+	display: flex;
+	flex-wrap: wrap;
+}
+
 .portfolio li {
 	display: inline-block;
 	border: 8px solid black;
