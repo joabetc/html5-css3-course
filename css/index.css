@@ -263,6 +263,7 @@ header {
 
     animation: aparece 0.5s;
     animation-delay: 2s;
+    animation-fill-mode: backwards;
 }
 .palavras-home {
     perspective: 6px;
