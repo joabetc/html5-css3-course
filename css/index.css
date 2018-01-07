@@ -41,11 +41,23 @@
     font-size: 2em;
     color: #000;
 }
+@keyframes flutua {
+    from {
+        top: -5px;
+    }
+    to {
+        top: 5px;
+    }
+}
 .saudacao em {
     color: #851944;
     font-size: 4em;
     transform: rotate(-5deg) skew(-10deg);
     display: inline-block;
+    animation: flutua 1s infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    position: relative;
 }
 .botao-index {
     font-size: 1.25em;
